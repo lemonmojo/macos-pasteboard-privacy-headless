@@ -1,6 +1,6 @@
 # Pasteboard Privacy Headless Test
 
-This project demonstrates an issue with the new macOS pasteboard privacy changes.
+This project demonstrates an issue with the new [macOS pasteboard privacy changes](https://developer.apple.com/documentation/updates/appkit#macOS-pasteboard-privacy).
 In headless apps (`LSUIElement` + `NSApplication.setActivationPolicy(.prohibited)`) a hang occurs when trying to access the pasteboard and the permission prompt never appears.
 When the permission prompt should appear, an error message is printed instead:
 
